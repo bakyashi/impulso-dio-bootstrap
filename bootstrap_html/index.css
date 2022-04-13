@@ -27,21 +27,27 @@ body{
     justify-content: center;
     align-items: center;
     background: white;
-    width: 300px;
-    height: 300px;
+    width: 25vw;
+    height: 25vw;
     border-radius: 15px;
     box-shadow: 5px 5px 10px rgb(71, 3, 73);
     font-style: italic;
+}
+#description{
+    font-size: 1.5vw;
 }
 #img-case{
     width: 200px;
     height: 200px;
 }
-
+#img-case:hover{
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
 #content{
-    color: rgb(71, 3, 73);
+    color: rgb(255, 255, 255);
     text-align: center; 
-    font-size: 15pt;
+    font-size: 4vh;
     font-style: italic;
     height: 60vh;    
     font-weight: 100;
@@ -50,5 +56,16 @@ body{
     background:linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 0.3)), url(../images/illya.jpg) fixed no-repeat;
     background-size: cover;
    
+}
+
+#footer{
+text-align: center;
+line-height: 10vh;
+color: white;
+margin-top: 15vh;
+width: 100vw;
+height: 10vh;
+background: rgba(128, 0, 128, 0.034);
+font-style: italic;
 }
 
